@@ -14,9 +14,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/robynheslop/google-book-search.git"
+    "url": "git+https://github.com/RecordSword/React-Google-books-search"
   },
-  "author": "Robyn Heslop",
+  "author": "Nick Sword",
   "license": "ISC",
   "devDependencies": {
     "concurrently": "^4.1.0",
