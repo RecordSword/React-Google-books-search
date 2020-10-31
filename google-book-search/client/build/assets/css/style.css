@@ -1,0 +1,125 @@
+
+.bookImage {
+    display: inline
+}
+
+html {
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    background-image: url("../images/books.png");
+    background-attachment: fixed;
+    background-size: 100% auto;
+}
+
+.jumbotron {
+    background-color: rgba(240, 248, 255, 0);
+}
+
+.container {
+    /* background-color: beige; */
+    padding: 20px;
+    border-radius: 6px;
+}
+
+h1 {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 5rem;
+}
+
+h3 {
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.navbar {
+    vertical-align: middle;
+}
+
+.google-books {
+    margin-right: 35px;
+}
+
+.result-card {
+    background-color: #f7f7f7de;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid rgb(73 77 78);
+    border-radius: 6px;
+    width: 100%
+}
+
+h4 {
+    padding-bottom: 5px;
+}
+
+.button, .button:hover {
+    display: inline-block;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: rgb(73 77 78);
+    border-radius: 6px;
+    outline: none !important;
+    border-width: 0px;
+    margin: 0px 3px;
+}
+
+input {
+    width: calc(100% - 100px);
+    margin: 0 auto;
+}
+
+#content-title {
+    font-size: 2.5rem;
+    width: -webkit-fill-available;
+    text-align: center !important;
+}
+
+.row {
+    padding-bottom: 20px;
+}
+
+hr {
+    border-top: 3px solid rgb(73 77 78);
+    height: 3px
+}
+
+.nav-link {
+    color: rgb(73 77 78) !important;
+    font-size: large;
+}
+
+.active {
+    font-weight: bold;
+    color: rgb(45 32 13) !important;
+}
+
+.book-buttons {
+    text-align: end;
+}
+
+@media (max-width: 575.98px) {
+    .result-header {
+        text-align: center;
+    }
+
+    .book-buttons {
+        padding-top: 10px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 691.98px) {
+    
+}
+
+.book-image {
+    max-width: -webkit-fill-available;
+}
+
+button:disabled,
+button[disabled]{
+  visibility: hidden;
+}
